@@ -6,11 +6,11 @@ import com.ali.logUtil.util.LoggerUtil;
 import org.springframework.stereotype.Service;
 
 @Service
-public class LogUtilTestService {
+public class LogUtilExampleService {
 
     final LoggerUtil loggerUtil;
 
-    public LogUtilTestService(LoggerUtil loggerUtil) {
+    public LogUtilExampleService(LoggerUtil loggerUtil) {
         this.loggerUtil = loggerUtil;
     }
 
